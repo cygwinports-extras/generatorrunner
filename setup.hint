@@ -1,0 +1,5 @@
+category: Devel
+requires: libapiextractor0.10 libgcc1 libQtCore4 libstdc++6
+sdesc: "PySide code generation tool"
+ldesc: "GeneratorRunner is the application responsible for loading and 
+executing the generator front-ends provided by the user as plug-ins."

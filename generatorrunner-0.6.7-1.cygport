@@ -1,0 +1,11 @@
+inherit qt4-cmake
+
+DESCRIPTION="PySide code generation tool"
+HOMEPAGE="http://www.pyside.org/"
+SRC_URI="http://www.pyside.org/files/${P}.tar.bz2"
+PATCH_URI="0.6.7-cygwin.patch"
+
+PKG_NAMES="${PN} ${PN}-devel"
+PKG_HINTS="setup devel"
+generatorrunner_CONTENTS="usr/bin/ usr/lib/${PN}/ usr/share/"
+generatorrunner_devel_CONTENTS="usr/include/ usr/lib/cmake/ usr/lib/lib* usr/lib/pkgconfig/"
